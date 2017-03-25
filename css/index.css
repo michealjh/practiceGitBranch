@@ -1,0 +1,42 @@
+/* 
+  和小伙伴的共同练习git多人开发模式，解决版本冲突，内容合并等问题
+  详细注释会加到这里
+ */
+
+/* 主体内容容器居中 */
+#lolContent{
+  width: 1240px;
+  margin: 0 auto;
+  height: 1790px;
+}
+ /* 主体内容左部容器 */
+#lolContentL{
+  float: left;
+  margin-right: 60px;
+  background-color: red;
+  height: 1790px;
+}
+ /* 主体左边内容共 */
+.lolContLModule{
+  width: 780px;
+  margig-bottom: 38px;
+  background-color: #9c2135;
+}
+/* 第一层轮播图的 */
+#lolContentL>div:nth-of-type(1) div{
+  width: 100%;
+  height: 40px;
+}
+#lolContentL div:nth-of-type(1) img{
+  display: block;
+}
+#lolContentL div:nth-of-type(1) a{
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: #e90536;
+}
+#lolContentL>div:nth-of-type(1) a:hover{
+  background-color: #fff;
+}
+/* 第二层 */
